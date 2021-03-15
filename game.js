@@ -17,8 +17,8 @@ let CurrentPlayer = Human;
 // setup of the game & calling the AI algorithm
 function setup() {
   createCanvas(400, 400);
-  WIDTH = width / 3;
-  HEIGHT = height / 3;
+  WIDTH = width / 3; // width = 400
+  HEIGHT = height / 3; // height = 400
   bestMove();
 }
 
